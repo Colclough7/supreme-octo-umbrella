@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+body{
+   background-color: lightgray;
+}
+hr{
+    width: 50%;
+    border: 10px solid black;
+    
+}
+header{
+    background-color: black;
+    font-family: 'Comic Neue', cursive;
+    color: honeydew;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav h1{
+    font-size: 50px;
+}
+nav h5{
+    text-align: center;
+}
+main{
+    height: calc(140vh - 120px);
+    width: 100%;
+    font-weight: bolder;
+  
+}
+.intro{
+    height: 60%;
+}
+.intro_paragraph{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction: column;
+}
+.intro_image{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: xx-large;
+    font-family: 'Indie Flower', cursive;
+}
+.intro_paragraph img{
+    width: 50%;
+    border-radius: 50%;
+    background-image: none;
+    
+}
+.intro_description{
+    font-size:x-large;
+}
+
+.intro_list{
+    font-size:larger;
+}
+.intro_list p a:hover{
+    color:red;
+    font-size: 25px;
+}
+.about{
+    width: 100%;
+    height:40%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    gap: 30%;
+    font-size: x-large;
+    text-align: center;
+}
+.about_paragraph h2{
+    font-size: xx-large;
+}
+.contact{
+    width: 100%;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact_info{
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact_info p{
+    font-size: xx-large;
+}
+
+.contact_info ol li a{
+    font-size: xx-large;
+}
+.contact_info ol li a:hover{
+    color: orange;
+}
+.contact_paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+.footer_paragraph{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
