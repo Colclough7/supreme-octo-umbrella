@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
+/* simple reset */
 *{
     padding: 0;
     margin: 0;
@@ -12,13 +12,16 @@ img{
     display: block;
 }
 body{
+    /* Using light gray as a background */
    background-color: lightgray;
 }
+/* Styling hr */
 hr{
     width: 50%;
     border: 10px solid black;
     
 }
+/* Styling header section */
 header{
     background-color: black;
     font-family: 'Comic Neue', cursive;
@@ -28,18 +31,21 @@ header{
     justify-content: center;
     align-items: center;
 }
+/* styling nav section */
 nav h1{
     font-size: 50px;
 }
-nav h5{
+nav h3{
     text-align: center;
 }
+/* styling main section */
 main{
     height: calc(140vh - 120px);
     width: 100%;
     font-weight: bolder;
   
 }
+/* styling intro section */
 .intro{
     height: 60%;
 }
@@ -73,10 +79,12 @@ main{
 .intro_list{
     font-size:larger;
 }
+/* styling link with a pseudo class */
 .intro_list p a:hover{
     color:red;
     font-size: 25px;
 }
+/* styling about section */
 .about{
     width: 100%;
     height:40%;
@@ -91,6 +99,10 @@ main{
 .about_paragraph h2{
     font-size: xx-large;
 }
+.about_paragraph p a:hover{
+    background-color: purple;
+}
+/* styling contact section */
 .contact{
     width: 100%;
     height:50%;
@@ -114,6 +126,7 @@ main{
 .contact_info ol li a{
     font-size: xx-large;
 }
+/* styling link with pseudo class */
 .contact_info ol li a:hover{
     color: orange;
 }
@@ -124,7 +137,7 @@ main{
     flex-direction: column;
     gap: 30px;
 }
-
+/* styling footer */
 footer{
     text-align: center;
     width: 100%;
